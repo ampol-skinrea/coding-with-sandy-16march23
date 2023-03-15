@@ -1,0 +1,30 @@
+/* import bootstrap to set changes */
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+$max-width: 720px;
+
+.page {
+  max-width: $max-width;
+}
+
+.intro {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+  }
+}
+
+.progress-indicator {
+  text-align: right;
+}
